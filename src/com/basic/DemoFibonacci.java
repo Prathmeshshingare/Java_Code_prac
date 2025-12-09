@@ -1,6 +1,6 @@
 package com.basic;
 
-public class DmoFibonacci {
+public class DemoFibonacci {
 	
 	public int fibonacciSeries(int num) {
 		int f=0;
@@ -18,7 +18,7 @@ public class DmoFibonacci {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		DmoFibonacci df=new DmoFibonacci();
+		DemoFibonacci df=new DemoFibonacci();
 		df.fibonacciSeries(10);
 
 	}
