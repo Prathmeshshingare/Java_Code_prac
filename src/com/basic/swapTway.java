@@ -7,14 +7,14 @@ public class swapTway {
 		int a=10;
 		int b=20;
 	
-		System.out.println("value of a before swap"+a);
-		System.out.println("value of b before swap"+b);
+		System.out.println("value of a Before swap"+a);
+		System.out.println("value of b Before swap"+b);
 		
 		a=a ^ b;
 		b=a ^ b;
 		a=a ^b;
-		System.out.println("value of a after swap"+a);
-		System.out.println("value of b after swap"+b);
+		System.out.println("value of a After swap"+a);
+		System.out.println("value of b After swap"+b);
 
 	}
 
