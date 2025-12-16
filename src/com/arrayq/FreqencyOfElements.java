@@ -13,7 +13,7 @@ public class FreqencyOfElements {
 			for(int j=i+1;j<=arr.length-1;j++) {
 				if(arr[i] ==arr[j]) {
 					c++;
-					arr[j]=-1;
+					arr[j]=-1;//Here we set number who already counted 
 				}
 			}
 		
