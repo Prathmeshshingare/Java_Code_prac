@@ -7,7 +7,7 @@ public class FreqencyOfElements {
 		for(int i=0;i<=arr.length-1;i++) {
 			
 			if(arr[i]==-1) {
-				continue;
+				continue;// here we are skip the number who is sets as -1 
 			}
 			int c=1;
 			for(int j=i+1;j<=arr.length-1;j++) {
