@@ -3,7 +3,7 @@ package com.arrayq;
 public class FirstRepeateElement {
 	
 	void firstRepeateElement(int arr[]) {
-		
+		//no need to find repeat element only check and return
 		for(int i=0;i<=arr.length-1;i++) {
 			for(int j=i+1;j<=arr.length-1;j++) {
 				if(arr[i]==arr[j]) {
