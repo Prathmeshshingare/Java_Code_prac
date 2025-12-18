@@ -1,6 +1,6 @@
 package com.arrayq;
 public class RotateByKPositions {
-
+//rotate by k positions
     static void rotateByK(int[] arr, int k) {
 
         int n = arr.length;
