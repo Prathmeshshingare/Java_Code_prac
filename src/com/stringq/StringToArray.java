@@ -9,7 +9,7 @@ public class StringToArray {
 		char[] ch=s.toCharArray();
 		
 		for(char c:ch) {
-			System.out.println(c);
+			System.out.print(c+" ");
 		}
 	}
 
