@@ -12,9 +12,11 @@ public class Countvowelsandconsonants {
 			if(str.charAt(i) == 'a' || str.charAt(i) =='e' ||str.charAt(i) == 'i' || str.charAt(i) =='o' ||str.charAt(i) =='u') {
 				vowel++;
 			}
-		cons++;
+			else 
+				cons++;
 		}
-     System.out.println(vowel);
+     System.out.println("Count of vowels is : "+vowel);
+     System.out.println("Count of consonants is : "+cons);
 	}
 
 }
