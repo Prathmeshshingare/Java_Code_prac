@@ -18,7 +18,7 @@ public class FirstNonRepeating {
 			}
 			
 			if(count == 1) {
-				System.out.println(ch);
+				System.out.println("First Non Repeating: "+ch);
 				return;
 			}
 		}
