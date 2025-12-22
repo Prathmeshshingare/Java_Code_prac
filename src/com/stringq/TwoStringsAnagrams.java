@@ -10,7 +10,7 @@ public class TwoStringsAnagrams {
 		String str1="listen";
 		
 		if(str.length() != str1.length() ) {
-			System.out.println("String are not Anagram");
+			System.out.println("String are not Anagram  !");
 		}
 		
 		char[] ch=str.toCharArray();
@@ -23,7 +23,7 @@ public class TwoStringsAnagrams {
 			System.out.println("String are  Anagram");
 		}
 		else
-			System.out.println("String are  not Anagram.....");
+			System.out.println("String are  not Anagram.....!");
 
 	}
 
