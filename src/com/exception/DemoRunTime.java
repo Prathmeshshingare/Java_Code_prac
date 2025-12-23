@@ -15,6 +15,17 @@ public class DemoRunTime {
 		}
 		
 		
+		int arr[]= {12,3,4};
+		try {
+			System.out.println(arr[1]);
+		System.out.println(arr[4]);
+		System.out.println(arr[0]);
+		}
+		catch (ArrayIndexOutOfBoundsException  e) {
+			// TODO: handle exception
+			System.out.println("You are trying to access more than its size  ");
+		}
+		
 
 	}
 
