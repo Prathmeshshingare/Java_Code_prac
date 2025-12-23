@@ -3,11 +3,10 @@ package com.exception;
 public class checkedException {
 
 	public static void main(String[] args) {
-		ApplyForLice al=new ApplyForLice(1,"java");
+		ApplyForLice al = new ApplyForLice();
 		try {
-		al.applyForLicence(23);
-		}
-		catch (AgeException e) {
+			al.applyForLicence(23);
+		} catch (AgeException e) {
 			// TODO: handle exception
 			System.out.println("Not applicable");
 		}
@@ -16,7 +15,7 @@ public class checkedException {
 
 }
 
-class AgeException extends Exception{
+class AgeException extends Exception {
 	int age;
 
 	public AgeException() {
@@ -33,24 +32,28 @@ class AgeException extends Exception{
 		return age;
 	}
 }
-class ApplyForLice{
+
+class ApplyForLice {
 	int id;
 	String name;
+
 	public ApplyForLice() {
 		super();
 		// TODO Auto-generated constructor stub
 	}
+
 	public ApplyForLice(int id, String name) {
 		super();
 		this.id = id;
 		this.name = name;
 	}
-	public void applyForLicence(int age) throws AgeException{
-		if(age <16) {
-			AgeException ae=new AgeException(age);
-		    throw ae;
+
+	public void applyForLicence(int age) throws AgeException {
+		if (age < 16) {
+			AgeException ae = new AgeException(age);
+			throw ae;
 		}
-		System.out.println("Candidate can Apply");
+		System.out.println("Candidate Can Apply to Lice");
 	}
-	
+
 }
