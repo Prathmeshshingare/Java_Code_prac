@@ -9,7 +9,7 @@ public class checkedException {
 		}
 		catch (AgeException e) {
 			// TODO: handle exception
-			System.out.println("not applicable");
+			System.out.println("Not applicable");
 		}
 
 	}
@@ -50,7 +50,7 @@ class ApplyForLice{
 			AgeException ae=new AgeException(age);
 		    throw ae;
 		}
-		System.out.println("Able to apply");
+		System.out.println("Candidate can Apply");
 	}
 	
 }
