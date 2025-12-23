@@ -1,6 +1,10 @@
 package com.exception;
 
 public class DemoRunTime {
+	
+	void disp() {
+		System.out.println("disp  method");
+	}
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -26,6 +30,18 @@ public class DemoRunTime {
 			System.out.println("You are trying to access more than its size  ");
 		}
 		
+		
+		try {
+			String str=null;
+			DemoRunTime d=null;
+			d.disp();
+			System.out.println(str);
+			System.out.println(d);
+		}
+		catch (NullPointerException e) {
+			// TODO: handle exception
+			System.out.println("Null pointer exception occure");
+		}
 
 	}
 
