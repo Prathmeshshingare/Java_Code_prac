@@ -4,7 +4,7 @@ public class DependencyInjInCoreJava {
 	
 	int stdid;
 	String stdname;
-	Address adr;
+	Address adr;//ref of class
 	
 
 	public DependencyInjInCoreJava() {
