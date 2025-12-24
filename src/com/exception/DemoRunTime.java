@@ -44,7 +44,7 @@ public class DemoRunTime {
 			//System.exit(0); finally not executed
 		}
 		finally {
-			System.out.println("finally block");
+			System.out.println("finally block executed ");
 		}
 
 	}
