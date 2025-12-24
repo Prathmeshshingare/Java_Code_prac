@@ -41,7 +41,7 @@ public class DemoRunTime {
 		catch (NullPointerException e) {
 			// TODO: handle exception
 			System.out.println("Null pointer exception occure");
-			//System.exit(0); finally not executed
+			System.exit(0); //finally not executed
 		}
 		finally {
 			System.out.println("finally block executed ");
